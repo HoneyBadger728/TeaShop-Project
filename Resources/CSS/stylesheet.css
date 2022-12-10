@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.navbar {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    
+}
+
+.logopic {
+    height: 50px;
+
+}
+
+.navlinks ul {
+    list-style-type: none;
+}

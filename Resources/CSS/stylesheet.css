@@ -119,7 +119,22 @@ h2 {
 .box {
     flex-basis: 300px;
     margin: 15px 40px;
-    line-height: 2.5em;
+    line-height: 2.5;
     text-align: center;
     opacity: 1;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    vertical-align: middle;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    line-height: 2;
+}
+
+#Footer {
+    margin: 20px;
 }

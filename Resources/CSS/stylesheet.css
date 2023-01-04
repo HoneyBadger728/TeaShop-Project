@@ -1,20 +1,26 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+    opacity: .90;
     margin: 0;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 .navbar {
     height: 69px;
     width: 100%;
-    position: sticky;
+    top: 0;
     border-bottom: 1px solid seashell;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: black;
+    opacity: 1;
 }
 
 .logopic {
@@ -33,7 +39,7 @@
 }
 
 .navlinks li {
-   margin: 20px;
+   padding: 20px;
 }
 
 #Mission {
@@ -55,4 +61,65 @@
 
 .missionstatement h2 {
     margin: 10px;
+}
+
+.totm {
+    text-align: center;
+    width: 1000px;
+    margin: 80px auto;
+}
+
+.totm h2,
+.totm h4 {
+    margin: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.berryblitz,
+.spiced-rum,
+.donut,
+.myrtle-ave,
+.bedford {
+    height: 200px;
+    width: 300px;
+    margin: 12px;
+}
+
+.totmpic p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#Locations {
+    background-image: url(../Images/img-locations-background.webp);
+    background-size: 1225px 700px;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Locations h2 {
+    background-color: transparent;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.box {
+    flex-basis: 300px;
+    margin: 15px 40px;
+    line-height: 2.5em;
+    text-align: center;
+    opacity: 1;
 }

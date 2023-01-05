@@ -12,14 +12,15 @@ h2 {
 }
 
 .navbar {
-    height: 69px;
+    min-height: 69px;
     width: 100%;
+    position: fixed;
     top: 0;
     border-bottom: 1px solid seashell;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    z-index: 1;
     opacity: 1;
 }
 
@@ -28,26 +29,26 @@ h2 {
     margin-left: 10px;
 }
 
-.navlinks {
-    height: 69px;
-}
 
 .navlinks ul {
     list-style-type: none;
     display: flex;
-    margin-right: 10px;
+    
 }
 
 .navlinks li {
-   padding: 20px;
+   margin-right: 15px;
 }
 
 #Mission {
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
+    margin-top: 70px;
     text-align: center;
     background-image: url(../Images/img-mission-background.webp);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +56,7 @@ h2 {
 }
 
 .missionstatement {
-    width: 1200px;
+    width: 100%;
     padding: 5px;
 }
 
@@ -65,7 +66,6 @@ h2 {
 
 .totm {
     text-align: center;
-    width: 1000px;
     margin: 80px auto;
 }
 
@@ -78,7 +78,11 @@ h2 {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+    
 }
 
 .berryblitz,
@@ -86,24 +90,23 @@ h2 {
 .donut,
 .myrtle-ave,
 .bedford {
-    height: 200px;
     width: 300px;
-    margin: 12px;
+    margin: 0 10px;
 }
 
 .totmpic p {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px auto 20px;
     font-weight: bold;
 }
 
 #Locations {
     background-image: url(../Images/img-locations-background.webp);
-    background-size: 1225px 700px;
+    background-size: cover;
+    background-position: center;
     height: 500px;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
-    margin: auto;
+    margin: 15px auto;
     align-items: flex-start;
     align-content: center;
     justify-content: center;
@@ -119,7 +122,7 @@ h2 {
 .box {
     flex-basis: 300px;
     margin: 15px 40px;
-    line-height: 2.5;
+    line-height: 1.7;
     text-align: center;
     opacity: 1;
 }
